@@ -16,4 +16,22 @@
     %script{ src: "/assets/vendor/javascripts/bootstrap.min.js" }
     {% javascript application %}
   %body
+    %nav.navbar.navbar-default{ role: "navigation" }
+      .navbar-header
+        %button.navbar-toggle{ type: "button", data: { toggle: "collapse", target: ".navbar-ex1-collapse" } }
+          %span.sr-only 打开或关闭导航菜单
+          %span.icon-bar
+          %span.icon-bar
+          %span.icon-bar
+        %a.navbar-brand{ href: "/" } Choi Goon-ho
+      .collapse.navbar-collapse.navbar-ex1-collapse
+        %ul.nav.navbar-nav
+          %li
+            %a{ href: "/about/" } 关于
+          %li
+            %a{ href: "/static/" } 静态网站
+          %li
+            %a{ href: "/rails/" } Ruby on Rails
+          %li
+            %a{ href: "/photos/" } 摄影
     {{ content }}
