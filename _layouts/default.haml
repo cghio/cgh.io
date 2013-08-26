@@ -12,6 +12,8 @@
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon">
     {% stylesheet application %}
+    %script{ src: "/assets/vendor/javascripts/jquery-2.0.3.min.js" }
+    %script{ src: "/assets/vendor/javascripts/bootstrap.min.js" }
     {% javascript application %}
   %body
     {{ content }}
