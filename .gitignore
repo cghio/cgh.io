@@ -1,2 +1,4 @@
 _site
 .jekyll-assets-cache
+_secret.yml
+cacert.pem

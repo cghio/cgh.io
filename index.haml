@@ -21,4 +21,8 @@ layout: default
         .panel-heading
           My Tweets
         %ul.list-group
-          %li.list-group-item 
+          {% for tweet in site.tweets %}
+          %li.list-group-item
+            {{ tweet.text }}
+            %span{ data: { livestamp: "{{ tweet.time }}" } }
+          {% endfor %}
