@@ -95,6 +95,9 @@ namespace :update do
       new_tweet = {}
       new_tweet['text'] = tweet['text']
       new_tweet['time'] = DateTime.parse(tweet['created_at']).strftime('%s').to_i
+      tweet['entities']['urls'].each do |entity|
+        new_tweet['text'].sub!(entity['url'], "<a href=\"#{entity['expanded_url']}\">#{entity['display_url']}</a>")
+      end
       data['tweets'] << new_tweet
     end
 
