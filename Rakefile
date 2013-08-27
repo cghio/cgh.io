@@ -73,11 +73,16 @@ namespace :update do
       end
     rescue EOFError
       puts response.inspect
-      exit
+      exit 1
+    rescue OpenSSL::SSL::SSLError
+      puts "You may need to run the following commands to temporarily fix the cert problem:"
+      puts "  $ curl -Os http://curl.haxx.se/ca/cacert.pem"
+      puts "  $ export SSL_CERT_FILE=#{File.expand_path('../cacert.pem', __FILE__)}"
+      exit 1
     end
     if response.code != "200"
       puts response.inspect
-      exit
+      exit 1
     end
 
     data = YAML.load_file('_data.yml')
@@ -94,5 +99,6 @@ namespace :update do
     end
 
     File.write('_data.yml', Psych.dump(data, line_width: -1))
+    puts "#{tweets.size} tweets have been successfully saved to _data.yml."
   end
 end
