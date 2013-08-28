@@ -29,7 +29,7 @@
           %ul.nav.navbar-nav
             %li
               %a{ href: "/about/" } 关于
-            %li
+            %li{ class: "{% if page.permalink == '/static/' %}active{% endif %}" }
               %a{ href: "/static/" } 静态网站
             %li
               %a{ href: "/rails/" } Ruby on Rails

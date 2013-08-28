@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /static/
+---
+%article.container{ role: "main" }
+  .row
+    .col-md-4
+      .panel.panel-default
+        .panel-heading 静态网站？
+        .panel-body
+          一次过生成网站的全部网页文件，然后直接放到服务器上供用户浏览。
+          因为不需要消耗服务器资源来即时生成页面，所以服务器将更安全，响应速度更快。
+          较大型网站包含成百上千的网页，一次生成全部静态网页时间会比较长，所以只适合500个网页以下的网站。
+    .col-md-4
+      .panel.panel-default
+        .panel-heading 如何更新网站？
+        .panel-body
+          目前惯用的做法是用版本控制软件“Git”管理网页代码，存放在GitHub这个网站上，每次修改将记为一个历史版本。
+          编者可以在GitHub上直接修改网站，也可以在自己的电脑上修改，然后上传新版到GitHub上。
+          然后在服务器上执行一个命令，下载新版网页代码，生成最新网页。
+    .col-md-4
+      .panel.panel-default
+        .panel-heading 特点？
+        .panel-body
+          就像这个网站一样，网页界面或是代码都追求简洁整齐，更符合国际标准。
+          样式和脚本文件将压成小文件，图片也会进行无损压缩，从而加快网页载入速度。
+          前端可以使用Bootstrap做响应式网页，这样网页可以任何尺寸屏幕的设备（包括智能手机）上显示一致内容。
