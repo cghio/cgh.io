@@ -124,3 +124,34 @@ permalink: /static/
             task :preview do
               puts_and_exec 'jekyll serve --config _config.yml,_data.yml --watch --trace'
             end
+  .row
+    .col-md-6
+      %h4 Nginx
+      %pre
+        = preserve do
+          :escaped
+            server {
+              server_name example.com;
+              return 301 http://www.example.com$request_uri;
+            }
+
+            server {
+              server_name example.com;
+              root /sites/example.com/public;
+              index index.html;
+            }
+    .col-md-6
+      %h4 .htaccess
+      %pre
+        = preserve do
+          :escaped
+            RewriteEngine on
+
+            RewriteCond %{http_host} ^example.com [nc]
+            RewriteRule ^(.*)$ http://www.example.com/$1 [L,R=301]
+
+            <ifmodule mod_deflate.c>
+            AddOutputFilter DEFLATE html js css
+            </ifmodule>
+
+            Header unset X-UA-Compatible
