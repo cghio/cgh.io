@@ -24,5 +24,5 @@ layout: default
           {% for tweet in site.tweets %}
           %li.list-group-item
             %small {{ tweet.text }}
-            %span.label.label-default{ data: { livestamp: "{{ tweet.time }}" } }
+            %a.label.label-default{ href: "https://twitter.com/caiguanhao/status/{{ tweet._id_ }}", data: { livestamp: "{{ tweet.time }}" } }
           {% endfor %}

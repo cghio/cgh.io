@@ -1,12 +1,17 @@
 ---
 tweets:
-- text: 'RT @smashingmag: Lifehack: you want to preload a Google map on your iOS device? Type a city, let the map load, then type "Ok maps" in the s…'
+- _id_: 373173969160916992
+  text: 'RT @smashingmag: Lifehack: you want to preload a Google map on your iOS device? Type a city, let the map load, then type "Ok maps" in the s…'
   time: 1377806582
-- text: 'RT @justinavery: Record your screen as an animated gif. <a href="http://www.cockos.com/licecap/">cockos.com/licecap/</a>'
+- _id_: 372237295094484992
+  text: 'RT @justinavery: Record your screen as an animated gif. <a href="http://www.cockos.com/licecap/">cockos.com/licecap/</a>'
   time: 1377583261
-- text: 'RT @linuxfoundation: 22 years ago today Linus Torvalds sent the email that started it all. <a href="http://bit.ly/179BLmK">bit.ly/179BLmK</a> #Linux http://t.co/ZuaAjS…'
+- _id_: 371680571904126977
+  text: 'RT @linuxfoundation: 22 years ago today Linus Torvalds sent the email that started it all. <a href="http://bit.ly/179BLmK">bit.ly/179BLmK</a> #Linux http://t.co/ZuaAjS…'
   time: 1377450528
-- text: 'RT @smashingmag: A Compass extension for responsive images, Apropos: <a href="http://corner.squareup.com/2013/08/responsive-images-with-apropos.html">corner.squareup.com/2013/08/respon…</a>, also on Github: <a href="https://github.com/square/apropos">github.com/square/apropos</a>'
+- _id_: 371679846193057792
+  text: 'RT @smashingmag: A Compass extension for responsive images, Apropos: <a href="http://corner.squareup.com/2013/08/responsive-images-with-apropos.html">corner.squareup.com/2013/08/respon…</a>, also on Github: <a href="https://github.com/square/apropos">github.com/square/apropos</a>'
   time: 1377450355
-- text: iPhone 4S | Tridiv <a href="http://tridiv.com">tridiv.com</a> via @TridivApp
+- _id_: 370627583789895680
+  text: iPhone 4S | Tridiv <a href="http://tridiv.com">tridiv.com</a> via @TridivApp
   time: 1377199476

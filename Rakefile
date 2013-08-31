@@ -93,6 +93,7 @@ namespace :update do
     tweets = JSON.parse response.body
     tweets.each do |tweet|
       new_tweet = {}
+      new_tweet['_id_'] = tweet['id']
       new_tweet['text'] = tweet['text']
       new_tweet['time'] = DateTime.parse(tweet['created_at']).strftime('%s').to_i
       tweet['entities']['urls'].each do |entity|
