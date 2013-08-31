@@ -25,3 +25,87 @@ permalink: /static/
           就像这个网站一样，网页界面或是代码都追求简洁整齐，更符合国际标准。
           样式和脚本文件将压成小文件，图片也会进行无损压缩，从而加快网页载入速度。
           前端可以使用Bootstrap做响应式网页，这样网页可以任何尺寸屏幕的设备（包括智能手机）上显示一致内容。
+  %h2 示例文件
+  .row
+    .col-md-4
+      %h4 _config.yml
+      %pre
+        = preserve do
+          :escaped
+            title: Choi Goon-ho
+
+            description: ...
+
+            url: http://cgh.io
+
+            permalink: /:categories/:title.html
+
+            relative_permalinks: false
+
+            assets:
+              dirname: assets
+              baseurl: /assets/
+              sources:
+                - _assets/images
+                - _assets/javascripts
+                - _assets/stylesheets
+              cache: true
+              cache_assets: true
+              gzip: []
+
+            exclude:
+              - Gemfile
+              - Gemfile.lock
+              - LICENSE
+              - Rakefile
+              - README.md
+      %h4 _config.production.yml
+      %pre
+        = preserve do
+          :escaped
+            # compress js and css
+            assets:
+              compress:
+                css: sass
+                js:  uglifier
+    .col-md-8
+      %h4 Gemfile
+      %pre
+        = preserve do
+          :escaped
+            source "https://rubygems.org"
+
+            gem "jekyll"          , "~> 1.1.2"
+
+            gem "coffee-script"   , "~> 2.2.0"
+            gem "therubyracer"    , "~> 0.12.0"
+            gem "uglifier"        , "~> 2.2.0"
+
+            gem "sass"            , "~> 3.2.10"
+            gem "jekyll-assets"   , "~> 0.7.1"
+
+            gem "haml"            , "~> 4.0.3"
+      %h4 Rakefile
+      %pre
+        = preserve do
+          :escaped
+            trap("SIGINT") { exit! }
+
+            task :default do
+              exec 'rake -T'
+            end
+
+            def puts_and_exec command
+              puts command
+              exec command
+            end
+
+            desc 'Build site for production'
+            task :build do
+              puts_and_exec 'jekyll build --config _config.yml,_config.production.yml,_data.yml --trace'
+            end
+
+            desc 'Preview and watch changes on local machine (development)'
+            task :preview do
+              puts_and_exec 'jekyll serve --config _config.yml,_data.yml --watch --trace'
+            end
