@@ -1,5 +1,7 @@
 ---
 tweets:
+- text: 'RT @smashingmag: Lifehack: you want to preload a Google map on your iOS device? Type a city, let the map load, then type "Ok maps" in the s…'
+  time: 1377806582
 - text: 'RT @justinavery: Record your screen as an animated gif. <a href="http://www.cockos.com/licecap/">cockos.com/licecap/</a>'
   time: 1377583261
 - text: 'RT @linuxfoundation: 22 years ago today Linus Torvalds sent the email that started it all. <a href="http://bit.ly/179BLmK">bit.ly/179BLmK</a> #Linux http://t.co/ZuaAjS…'
@@ -8,5 +10,3 @@ tweets:
   time: 1377450355
 - text: iPhone 4S | Tridiv <a href="http://tridiv.com">tridiv.com</a> via @TridivApp
   time: 1377199476
-- text: 'RT @StackUnix: Bash - Simulated tabs (multiple side-by-side shells) <a href="http://unix.stackexchange.com/q/87506?atw=1">unix.stackexchange.com/q/87506?atw=1</a> #bash'
-  time: 1377106868
