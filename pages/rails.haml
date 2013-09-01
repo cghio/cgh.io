@@ -1,0 +1,35 @@
+---
+layout: default
+permalink: /rails/
+---
+%article.container{ role: "main" }
+  .row
+    .col-md-8
+      .panel.panel-default
+        .panel-heading 安装 Rails
+        .panel-body
+          %pre
+            = preserve do
+              :escaped
+                sudo apt-get install gcc make libssl-dev
+                wget https://ftp.ruby-lang.org/pub/ruby/2.0/ruby-2.0.0-p247.tar.gz
+                tar xfvz ruby-2.0.0-p247.tar.gz
+                cd ruby-2.0.0-p247
+                ./configure
+                make
+                sudo make install
+                sudo gem install -V rails
+    .col-md-4
+      .panel.panel-default
+        .panel-heading About Ruby/Rails
+        %ul.list-group
+          %li.list-group-item
+            %a{ href: "http://ruby-doc.org/core-2.0.0/" } Ruby Documentation
+          %li.list-group-item
+            %a{ href: "http://guides.rubyonrails.org/" } Ruby on Rails Guides
+          %li.list-group-item
+            %a{ href: "http://ihower.tw/rails3/index.html" } Ruby on Rails 實戰聖經
+          %li.list-group-item
+            %a{ href: "https://www.ruby-toolbox.com/" } The Ruby Toolbox
+          %li.list-group-item
+            %a{ href: "http://railscasts.com/" } Railscasts

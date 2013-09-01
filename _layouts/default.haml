@@ -29,7 +29,7 @@
           %ul.nav.navbar-nav
             %li{ class: "{% if page.permalink == '/static/' %}active{% endif %}" }
               %a{ href: "/static/" } 静态网站
-            %li
+            %li{ class: "{% if page.permalink == '/rails/' %}active{% endif %}" }
               %a{ href: "/rails/" } Ruby on Rails
             %li
               %a{ href: "/photos/" } 摄影
