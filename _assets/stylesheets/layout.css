@@ -5,3 +5,7 @@
   color: #585858;
   font-size: 12px;
 }
+.panel-audio {
+  width: 100%;
+  max-width: 300px;
+}
