@@ -1,5 +1,8 @@
 ---
 tweets:
+- _id_: 375084762827743232
+  text: 'RT @github: Today we''re adding two-factor authentication to GitHub. Read about it in the blogpost <a href="https://github.com/blog/1614-two-factor-authentication">github.com/blog/1614-two-…</a>'
+  time: 1378262150
 - _id_: 373173969160916992
   text: 'RT @smashingmag: Lifehack: you want to preload a Google map on your iOS device? Type a city, let the map load, then type "Ok maps" in the s…'
   time: 1377806582
@@ -12,6 +15,3 @@ tweets:
 - _id_: 371679846193057792
   text: 'RT @smashingmag: A Compass extension for responsive images, Apropos: <a href="http://corner.squareup.com/2013/08/responsive-images-with-apropos.html">corner.squareup.com/2013/08/respon…</a>, also on Github: <a href="https://github.com/square/apropos">github.com/square/apropos</a>'
   time: 1377450355
-- _id_: 370627583789895680
-  text: iPhone 4S | Tridiv <a href="http://tridiv.com">tridiv.com</a> via @TridivApp
-  time: 1377199476
