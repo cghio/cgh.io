@@ -37,3 +37,24 @@ title: Linux
             %a{ href: "http://www.youtube.com/watch?v=UK52v6bCPvg" } Richard Stallman
           %audio.panel-audio{ src: "/assets/vendor/audios/richard_stallman_how_he_started_the_gnu_project.ogg", controls: true }
             %p 你的浏览器不支持播放此音频。
+    .col-md-6
+      .panel.panel-default
+        .panel-heading 一般软件的安装方法
+        .panel-body
+          %pre
+            = preserve do
+              :escaped
+                curl -O curl.haxx.se/download/curl-7.32.0.tar.gz
+                wget curl.haxx.se/download/curl-7.32.0.tar.gz
+
+                tar xfv curl-7.32.0.tar       # 解压 .tar 存档
+                tar xfvz curl-7.32.0.tar.gz   # .tar.gz / .tgz
+                tar xfvj curl-7.32.0.tar.bz2  # .tar.bz2 / .tbz
+                bzcat curl-7.32.0.tar.bz2 | tar xfv -  # 第二种方法
+                tar xfvl curl-7.32.0.tar.lzma
+                unzip curl-7.32.0.zip
+
+                cd curl-7.32.0
+                ./configure
+                make
+                sudo make install
