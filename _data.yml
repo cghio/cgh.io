@@ -1,5 +1,11 @@
 ---
 tweets:
+- _id_: 378613775873490944
+  text: 'RT @echojs: JSFuck - Write any JavaScript with 6 Characters: []()!+ - <a href="http://www.echojs.com/news/6300">echojs.com/news/6300</a>'
+  time: 1379103533
+- _id_: 377483403442278400
+  text: 'RT @DailyDevNews: Animo.js: Powerful Tool for Managing CSS Animations <a href="http://www.webappers.com/2013/09/06/animo-js-powerful-tool-for-managing-css-animations/">webappers.com/2013/09/06/ani…</a>'
+  time: 1378834031
 - _id_: 375313167959588864
   text: 'RT @GitCafe: Life of an HTTP Request <a href="https://shellycloud.com/blog/2013/09/life-of-an-http-request">shellycloud.com/blog/2013/09/l…</a>'
   time: 1378316606
@@ -9,9 +15,3 @@ tweets:
 - _id_: 373173969160916992
   text: 'RT @smashingmag: Lifehack: you want to preload a Google map on your iOS device? Type a city, let the map load, then type "Ok maps" in the s…'
   time: 1377806582
-- _id_: 372237295094484992
-  text: 'RT @justinavery: Record your screen as an animated gif. <a href="http://www.cockos.com/licecap/">cockos.com/licecap/</a>'
-  time: 1377583261
-- _id_: 371680571904126977
-  text: 'RT @linuxfoundation: 22 years ago today Linus Torvalds sent the email that started it all. <a href="http://bit.ly/179BLmK">bit.ly/179BLmK</a> #Linux http://t.co/ZuaAjS…'
-  time: 1377450528
