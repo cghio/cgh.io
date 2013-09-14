@@ -155,3 +155,19 @@ permalink: /static/
             </ifmodule>
 
             Header unset X-UA-Compatible
+  %h2 更新网站
+  .row
+    .col-md-6
+      %pre
+        = preserve do
+          :escaped
+            # FTP 只更新网页文件
+            ( cd _site && find . -type f \( -name "*.html" -o -name "*.css" -o -name "*.js" -o -name "*.xml" \) -exec curl -# --ftp-create-dirs -T {} ftp://user:pass@host:port/directory/{} \; )
+    .col-md-6
+      %pre
+        = preserve do
+          :escaped
+            # 从 git 获取更新并生成
+            git fetch --all
+            git reset --hard origin/master
+            jekyll build --config _config.yml --trace
