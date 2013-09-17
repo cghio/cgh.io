@@ -33,8 +33,8 @@
               %a{ href: "/rails/" } Ruby on Rails
             %li{ class: "{% if page.permalink == '/gnu_linux/' %}active{% endif %}" }
               %a{ href: "/gnu_linux/" } GNU/Linux
-            %li
-              %a{ href: "/photos/" } 摄影
+            %li{ class: "{% if page.permalink == '/panos/' %}active{% endif %}" }
+              %a{ href: "/panos/" } 全景图
     {{ content }}
     %footer.footer
       .container
