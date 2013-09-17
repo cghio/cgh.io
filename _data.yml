@@ -1,5 +1,8 @@
 ---
 tweets:
+- _id_: 379686892653903872
+  text: 'RT @smashingmag: RegExp.js: a simple little tool to debug regular expressions: <a href="http://jviereck.github.io/regexp.js/">jviereck.github.io/regexp.js/</a> / cc: @LeaVerou'
+  time: 1379359384
 - _id_: 378613775873490944
   text: 'RT @echojs: JSFuck - Write any JavaScript with 6 Characters: []()!+ - <a href="http://www.echojs.com/news/6300">echojs.com/news/6300</a>'
   time: 1379103533
@@ -12,6 +15,3 @@ tweets:
 - _id_: 375084762827743232
   text: 'RT @github: Today we''re adding two-factor authentication to GitHub. Read about it in the blogpost <a href="https://github.com/blog/1614-two-factor-authentication">github.com/blog/1614-two-…</a>'
   time: 1378262150
-- _id_: 373173969160916992
-  text: 'RT @smashingmag: Lifehack: you want to preload a Google map on your iOS device? Type a city, let the map load, then type "Ok maps" in the s…'
-  time: 1377806582
