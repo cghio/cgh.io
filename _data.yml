@@ -1,17 +1,17 @@
 ---
 tweets:
-- _id_: 380751869062033408
-  text: 'RT @fcambus: @nginxorg You might find this  interesting : a JSON IP and GeoIP REST API built on Nginx and Lua <a href="https://github.com/fcambus/telize">github.com/fcambus/telize</a>'
-  time: 1379613294
-- _id_: 379686892653903872
-  text: 'RT @smashingmag: RegExp.js: a simple little tool to debug regular expressions: <a href="http://jviereck.github.io/regexp.js/">jviereck.github.io/regexp.js/</a> / cc: @LeaVerou'
-  time: 1379359384
-- _id_: 378613775873490944
-  text: 'RT @echojs: JSFuck - Write any JavaScript with 6 Characters: []()!+ - <a href="http://www.echojs.com/news/6300">echojs.com/news/6300</a>'
-  time: 1379103533
-- _id_: 377483403442278400
-  text: 'RT @DailyDevNews: Animo.js: Powerful Tool for Managing CSS Animations <a href="http://www.webappers.com/2013/09/06/animo-js-powerful-tool-for-managing-css-animations/">webappers.com/2013/09/06/ani…</a>'
-  time: 1378834031
-- _id_: 375313167959588864
-  text: 'RT @GitCafe: Life of an HTTP Request <a href="https://shellycloud.com/blog/2013/09/life-of-an-http-request">shellycloud.com/blog/2013/09/l…</a>'
-  time: 1378316606
+- _id_: 384029718640472065
+  text: 'RT @linuxfoundation: Linus Torvalds worries about how #Linux will handle end of Moore’s Law <a href="http://bit.ly/19iMKJt">bit.ly/19iMKJt</a> via @jbrodkin of Ars Tec…'
+  time: 1380394794
+- _id_: 384021979092623361
+  text: 'RT @echojs: We don''t want your Coffee (An open letter to the CoffeeScript community) - <a href="http://www.echojs.com/news/6493">echojs.com/news/6493</a>'
+  time: 1380392949
+- _id_: 383625883447074816
+  text: 'RT @smashingmag: For the bookmarks: HTML5 Video Player Comparison, VideoSWS - <a href="http://praegnanz.de/html5video/">praegnanz.de/html5video/</a>'
+  time: 1380298512
+- _id_: 382914292720205824
+  text: 'RT @jasonsantamaria: Today is a great day to fix the dumb quotes on your site: <a href="http://smartquotesforsmartpeople.com/">smartquotesforsmartpeople.com</a>'
+  time: 1380128856
+- _id_: 382183350129020928
+  text: 'RT @echojs: Run Node.js code quickly &amp; securely in the browser using docker - <a href="http://www.echojs.com/news/6433">echojs.com/news/6433</a>'
+  time: 1379954585
